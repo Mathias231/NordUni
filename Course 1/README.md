@@ -80,3 +80,31 @@ Expected Console Flow:
 Enter temperature in Fahrenheit: 72.5
 72.5 degrees Fahrenheit is equal to 22.5 degrees Celsius.
 ```
+
+What I would do differently after delivery:
+```
+
+```
+
+## Task 3: The Leap Year Checker
+> Task: Write a program that asks the user for a year and determines if it is a leap year. The program should store the final result in a `boolean` variable before printing it.
+
+> Leap Year Rules:
+> - If the year is evenly divisible by 4, go to step 2. Otherwise, it is NOT a leap year.
+> - If the year is evenly divisible by 100, go to step 3. Otherwise, it IS a leap year.
+> - If the year is evenly divisible by 400, it IS a leap year. Otherwise, it is NOT a leap year.
+
+Here is what I delivered:
+```
+
+```
+
+Expected Console Flow:
+```
+
+```
+
+What I would do differently after delivery:
+```
+
+```
