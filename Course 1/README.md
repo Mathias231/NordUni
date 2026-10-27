@@ -39,6 +39,21 @@ Console.WriteLine(ageText);
 Console.WriteLine(heightText);
 Console.WriteLine(line);
 ```
+Expected Console Flow:
+```
+Enter your first name: Jane
+Enter your age: 19
+Enter your middle initial: M
+Enter your height in meters (e.g., 1.75): 1.68
+
+==============================
+      DIGITAL ID CARD
+==============================
+Name: Jane M.
+Age: 19
+Height: 1.68m
+==============================
+```
 
 What I would do differently after delivery:
 ```
@@ -49,5 +64,19 @@ What I would do differently after delivery:
 > Task: Create a program that converts a temperature from Fahrenheit to Celsius. The program should ask the user for a Fahrenheit temperature, perform the mathematical conversion, and display the result.
 
 ```
+// Ask for Fahrenheit
+Console.WriteLine("Enter temperature in Fahrenheit: ");
+float fahreinheitInput = float.Parse(Console.ReadLine());
 
+// Calculate
+double fahreinheitToCelcius = (5.0 / 9.0) * (fahreinheitInput - 32.0);
+
+// Output
+Console.WriteLine($"{fahreinheitInput} degrees Fahrenheit is equal to {fahreinheitToCelcius} degrees Celsius.");
+```
+
+Expected Console Flow:
+```
+Enter temperature in Fahrenheit: 72.5
+72.5 degrees Fahrenheit is equal to 22.5 degrees Celsius.
 ```
