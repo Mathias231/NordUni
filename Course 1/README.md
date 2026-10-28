@@ -177,7 +177,7 @@ if(year % 4 == 0 && year % 100 != 0 || year % 4 == 0 && year % 100 == 0 && year 
 
 ## Task 4: Multiplication Table Generator
 > Task: Ask the user to input a whole number between 1 and 12. Use 10 lines of code to generate and print the multiplication table for that specific number from 1 to 10.
-> Hint: The result can be achieved using only four lines of code.
+> - Hint: The result can be achieved using only four lines of code.
 Expected Console Flow:
 ```
 Enter a number for the multiplication table: 7
@@ -200,5 +200,9 @@ for(int i = 1; i < 11; i++){Console.WriteLine($"{userInput} x {i} = {userInput *
 
 What I would do differently after delivery:
 ```
+Console.Write("Enter a number for the multiplication table: ");
+int userInput = int.Parse(Console.ReadLine());
 
+Console.WriteLine("--- Multiplication Table for 7 ---");
+for(int i = 1; i < 11; i++) {Console.WriteLine($"{userInput} x {i} = {userInput * i}");}
 ```
