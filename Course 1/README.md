@@ -1,4 +1,5 @@
 # Course 1 showcase
+In this folder I want to showcase my work before and after delivery. 
 ## Task 1: The Digital ID Card 
 
 > Task: Write a program that asks the user for their personal details and then prints a formatted "ID Card" to the console. You must use the following data types: `string` (name), `int` (age), `char` (initial), and `float` or `double` (height in meters.
@@ -110,8 +111,17 @@ Console.WriteLine($"{fahreinheitInput} degrees Fahrenheit is equal to {fahreinhe
 
 What I would do differently after delivery:
 ```
+// Ask for Fahrenheit
+Console.Write("Enter temperature in Fahrenheit: ");
+float fahreinheitInput = float.Parse(Console.ReadLine());
 
+// Calculate
+double celcious = 5.0 / 9.0 * (fahreinheitInput - 32.0);
+
+// Output
+Console.WriteLine($"{fahreinheitInput} degrees Fahrenheit is equal to {celcious} degrees Celsius.");
 ```
+> I'm quite satisfied with the submission and I struggle to improve the code, other than removing the parentheses and change the variable name from `fahreinheitToCelcius` to `celsius`
 
 ## Task 3: The Leap Year Checker
 > Task: Write a program that asks the user for a year and determines if it is a leap year. The program should store the final result in a `boolean` variable before printing it.
@@ -188,6 +198,21 @@ Enter a number for the multiplication table: 7
 ...
 7 x 10 = 70
 ```
+
+Here is what I delivered:
+```
+// Ask for a number
+Console.Write("Enter a number for the multiplication table: ");
+int userInput = int.Parse(Console.ReadLine());
+
+// Print result 10 times
+Console.WriteLine("--- Multiplication Table for 7 ---");
+for(int i = 1; i < 11; i++)
+{
+    Console.WriteLine($"{userInput} x {i} = {userInput * i}");
+}
+```
+
 
 What I would do differently after delivery:
 ```
