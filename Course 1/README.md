@@ -161,7 +161,18 @@ if(isLeap)
 
 What I would do differently after delivery:
 ```
+// Ask for year
+Console.Write("Enter a year: ");
+int year = int.Parse(Console.ReadLine());
 
+// Print if year is leap year or not
+if(year % 4 == 0 && year % 100 != 0 || year % 4 == 0 && year % 100 == 0 && year % 400 == 0)
+{
+    Console.WriteLine($"Result: {year} is a leap year."); 
+} else
+{
+    Console.WriteLine($"Result: {year} is not a leap year."); 
+}
 ```
 
 ## Task 4: Multiplication Table Generator
