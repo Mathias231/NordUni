@@ -21,7 +21,6 @@ Height: 1.68m
 
 Here is what I delivered:
 ```
-
 // Ask for first name
 Console.Write("Enter your first name: ");
 string firstNameInput = Console.ReadLine();
@@ -58,7 +57,33 @@ Console.WriteLine(line);
 
 What I would do differently after delivery:
 ```
+// Ask for first name
+Console.Write("Enter your first name: ");
+string firstNameInput = Console.ReadLine();
 
+// Ask for age
+Console.Write("Enter your age: ");
+int ageInput = int.Parse(Console.ReadLine());
+
+// Ask for middle initial
+Console.Write("Enter your middle initial: ");
+char initialInput = Console.ReadLine()[0];
+
+// Ask for height in meters
+Console.Write("Enter your height in meters (e.g., 1.75): ");
+float heightInput = float.Parse(Console.ReadLine());
+
+// DIGICAL ID CARD SETUP
+string line = "==============================";
+string titleText = "      DIGITAL ID CARD";
+string nameText = "Name: " + firstNameInput + " " + initialInput + ".";
+string ageText = "Age: " + ageInput;
+string heightText = "Height: " + heightInput + "m";
+
+string digitalIdCard = $"{line}\n{titleText}\n{line}\n{nameText}\n{ageText}\n{heightText}\n{line}"; // \n -> new line
+
+// PRINT RESULT
+Console.WriteLine(digitalIdCard);
 ```
 
 ## Task 2: Temperature Converter 
