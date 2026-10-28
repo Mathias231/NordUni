@@ -189,20 +189,13 @@ Enter a number for the multiplication table: 7
 7 x 10 = 70
 ```
 
-Here is what I delivered:
-```
-Console.WriteLine("Enter a number for the multiplication table: ");
-int userInput = int.Parse(Console.ReadLine());
-
-Console.WriteLine("--- Multiplication Table for 7 ---");
-for(int i = 1; i < 11; i++){Console.WriteLine($"{userInput} x {i} = {userInput * i}");}
-```
-
 What I would do differently after delivery:
 ```
+// Ask for a number
 Console.Write("Enter a number for the multiplication table: ");
 int userInput = int.Parse(Console.ReadLine());
 
+// Print result 10 times
 Console.WriteLine("--- Multiplication Table for 7 ---");
 for(int i = 1; i < 11; i++) {Console.WriteLine($"{userInput} x {i} = {userInput * i}");}
 ```
