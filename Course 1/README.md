@@ -1,8 +1,14 @@
 # Course 1 showcase
-In this folder I want to showcase my work before and after delivery. 
+In this folder I want to showcase my work before and after delivery :shipit:
+
+> [!NOTE]
+> AI is not used
+
 ## Task 1: The Digital ID Card 
 
+<!--
 > Task: Write a program that asks the user for their personal details and then prints a formatted "ID Card" to the console. You must use the following data types: `string` (name), `int` (age), `char` (initial), and `float` or `double` (height in meters.
+-->
 
 Expected Console Flow:
 ```
@@ -88,7 +94,9 @@ Console.WriteLine(digitalIdCard);
 ```
 
 ## Task 2: Temperature Converter 
+<!--
 > Task: Create a program that converts a temperature from Fahrenheit to Celsius. The program should ask the user for a Fahrenheit temperature, perform the mathematical conversion, and display the result.
+-->
 
 Expected Console Flow:
 ```
@@ -124,8 +132,9 @@ Console.WriteLine($"{fahreinheitInput} degrees Fahrenheit is equal to {celcious}
 > I'm quite satisfied with the submission and I struggle to improve the code, other than removing the parentheses and change the variable name from `fahreinheitToCelcius` to `celsius`
 
 ## Task 3: The Leap Year Checker
+<!--
 > Task: Write a program that asks the user for a year and determines if it is a leap year. The program should store the final result in a `boolean` variable before printing it.
-
+-->
 > Leap Year Rules:
 > - If the year is evenly divisible by 4, go to step 2. Otherwise, it is NOT a leap year.
 > - If the year is evenly divisible by 100, go to step 3. Otherwise, it IS a leap year.
@@ -186,8 +195,11 @@ if(year % 4 == 0 && year % 100 != 0 || year % 4 == 0 && year % 100 == 0 && year 
 ```
 
 ## Task 4: Multiplication Table Generator
+<!--
 > Task: Ask the user to input a whole number between 1 and 12. Use 10 lines of code to generate and print the multiplication table for that specific number from 1 to 10.
 > - Hint: The result can be achieved using only four lines of code.
+-->
+
 Expected Console Flow:
 ```
 Enter a number for the multiplication table: 7
