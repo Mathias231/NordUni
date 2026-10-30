@@ -195,6 +195,18 @@ if(year % 4 == 0 && year % 100 != 0 || year % 4 == 0 && year % 100 == 0 && year 
 }
 ```
 
+Bonus improvement:
+```
+Console.Write("Enter a year: ");
+int year = int.Parse(Console.ReadLine());
+bool isLeap = DateTime.IsLeapYear(year);
+
+if(isLeap)
+    Console.WriteLine($"Result: {year} is a leap year.");
+else
+    Console.WriteLine($"Result: {year} is NOT a leap year.");
+```
+
 ## Task 4: Multiplication Table Generator
 <!--
 > Task: Ask the user to input a whole number between 1 and 12. Use 10 lines of code to generate and print the multiplication table for that specific number from 1 to 10.
