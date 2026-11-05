@@ -26,3 +26,14 @@ for (int i = 0; i < inventory.Length; i++)
 
 Console.WriteLine($"\nThe player quickly grabs the {inventory[2]} from their bag!");
 ```
+
+
+## Task 2: High Score Analyzer
+
+## Task 3: Area of Effect (AoE) Damage
+
+## Task 4: The 2D Level Grid
+
+## Task 5: Spawning the Enemy Wave
+
+## Bonus Exercise: The Dynamic Loot Bag
