@@ -2,6 +2,7 @@
 
 
 ## Task 1: The Player Inventory
+```
 Expected Console Flow:
 === Starting Inventory ===
 1. Wooden Sword
@@ -9,6 +10,7 @@ Expected Console Flow:
 3. Map
 4. Shield
 5. Bread
+```
 
 What I delivered:
 ```
