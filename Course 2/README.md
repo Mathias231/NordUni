@@ -31,7 +31,16 @@ Console.WriteLine($"\nThe player quickly grabs the {inventory[2]} from their bag
 
 What I would do differently after delivery:
 ```
+string[] inventory = ["Wooden Sword", "Health Potion", "Map", "Shield", "Bread"];
 
+Console.WriteLine("=== Starting Inventory ===");
+
+for (int i = 0; i < inventory.Length; i++)
+{
+    Console.WriteLine($"{i + 1}. {inventory[i]}");
+}
+
+Console.WriteLine($"\nThe player quickly grabs the {inventory[2]} from their bag!");
 ```
 
 ## Task 2: High Score Analyzer
