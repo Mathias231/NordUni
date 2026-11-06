@@ -75,7 +75,18 @@ Console.WriteLine($"The highest score achieved was: {highestScore}");
 
 What I would do differently after delivery:
 ```
+int[] score = {850, 3200, 1420, 5100, 900, 2750}; 
+int highestScore = 0;
 
+Console.WriteLine("== Analyzing match scores ==");
+foreach (var value in score)
+{
+    Console.WriteLine(value);
+
+    if(value > highestScore) highestScore = value;
+}
+
+Console.WriteLine($"The highest score achieved was: {highestScore}");
 ```
 
 ## Task 3: Area of Effect (AoE) Damage
@@ -116,7 +127,7 @@ for (int i = 0; i < enemyHealth.Length; i++)
 
 What I would do differently after delivery:
 ```
-
+No personal changes
 ```
 
 ## Task 4: The 2D Level Grid
