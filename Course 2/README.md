@@ -1,9 +1,11 @@
 # Course 2 Showcase
+In this folder I want to showcase my work before and after delivery
+
 
 
 ## Task 1: The Player Inventory
-```
 Expected Console Flow:
+```
 === Starting Inventory ===
 1. Wooden Sword
 2. Health Potion
@@ -12,7 +14,7 @@ Expected Console Flow:
 5. Bread
 ```
 
-What I delivered:
+Here is what I delivered:
 ```
 string[] inventory = ["Wooden Sword", "Health Potion", "Map", "Shield", "Bread"];
 
